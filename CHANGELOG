@@ -1,0 +1,32 @@
+Jesrik Gomez
+
+Assignment 1.02:
+
+**IMPORTANT***
+I created a new header file, "rooms.h".
+It only contains an initialized int variable which controls the room array size
+in the application.
+
+01/29: Changed the way I set the absolute path of the dungeon file. Before, it
+was getenv() was saved to a pointer, which could lead to OS environment 
+complications. Implemented the logic for loading first--based my implementation off of the example dungeon files. Implemented the logic for saving.
+
+01/27: Implemented the logic for handling application switches. Very
+straightforward switch case implementation handled in the main function.
+
+01/25: Created the directory for dungeon files and created the string variable
+with the absolute path to the dungeon file in C.
+
+________________________________________________________________________________
+
+Assignment 1.01:
+
+01/17: Not a whole lot to say here. I coded the entire thing in one sitting :)
+I implemented the room generation, the utility to check if a generated room is
+valid, and a very linear way of connecting all the rooms on the map.
+
+01/18: I felt like my corridors were far too linear, therefore I talked to
+Dr. Sheaffer to point me in the right direction as to how to decrease linearity.
+I implemented the corridor generation to have a 30% probability to shift left
+or right when building up a column.
+I am satisfied with my dungeons now :)
