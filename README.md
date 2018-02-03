@@ -1,3 +1,3 @@
 # Dungeon Generation
 
-Application to generate 80x21 dungeons, with the ability to write, and read them to disk.
+Application to generate 80x21 dungeons, with features to write, and read binary dungeon files from disk.
